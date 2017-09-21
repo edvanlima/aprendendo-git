@@ -40,7 +40,7 @@ Congurando o repositório remoto
 Congurar sincronização com o repositório local
 
 ```bash
-git remote add origin https://github.com/[seu_usuario_no_github]/curso-git.git
+git remote add origin https://github.com/edvanlima/aprendendo-git.git
 ```
 
 git remote -v 
@@ -49,3 +49,10 @@ git remote -v
 origin https://github.com/[seu_usuario_no_github]/curso-git.git (fetch)
 origin https://github.com/[seu_usuario_no_github]/curso-git.git (push)
 ```
+
+Fazendo o primeiro push
+
+```bash
+git push origin master
+```
+
