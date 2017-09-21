@@ -94,3 +94,22 @@ Date:   Thu Sep 21 11:22:02 2017 -0300
 
     aprendendo-git
 ```
+
+git add README.md
+git commit -m "adicionado uma branch"
+git push -u origin aprendendo
+
+
+```bash
+# mostrar branch remota
+git branch -r
+
+# atualizer o repositorio local
+git pull
+
+# criando branch local outro usuario e dizendo a branch remota correspondente
+git branch -t aprendendo origin/aprendendo
+
+# atualizando repositorio remoto
+git push origin master
+```
