@@ -59,29 +59,29 @@ git push origin master
 
 Trabalhando com branches:
 -------------------------
-
-git branch
 ```bash
+git branch
+
 * master
-```
+
 
 git branch aprendendo
 git branch
 
-```bash
+
   aprendendo
 * master
-```
+
 
 git checkout aprendendo
 git branch
-```bash
+
 * aprendendo
   mast
-```
+
 
 git log
-```bash
+
 commit 8b9e4267b379248d933d2270fbff8d69feb439e9 (HEAD -> aprendendo, origin/master, master)
 Author: [nome] <[email]>
 Date:   Thu Sep 21 11:58:26 2017 -0300
@@ -94,13 +94,13 @@ Date:   Thu Sep 21 11:22:02 2017 -0300
 
     aprendendo-git
 ```
-
+```bash
 git add README.md
 git commit -m "adicionado uma branch"
 git push -u origin aprendendo
 
 
-```bash
+
 # mostrar branch remota
 git branch -r
 
