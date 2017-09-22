@@ -113,5 +113,8 @@ git merge aprendendo
 
 # atualizando repositorio remoto
 git push origin master
+
+# atualizar uma branch com base em outra
+git rebase master aprendendo
 ```
 
