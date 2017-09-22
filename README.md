@@ -112,3 +112,5 @@ git branch -t aprendendo origin/aprendendo
 # atualizando repositorio remoto
 git push origin master
 ```
+
+git merge aprendendo
