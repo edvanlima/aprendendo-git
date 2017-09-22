@@ -109,8 +109,9 @@ git pull
 # criando branch local outro usuario e dizendo a branch remota correspondente
 git branch -t aprendendo origin/aprendendo
 
+git merge aprendendo
+
 # atualizando repositorio remoto
 git push origin master
 ```
 
-git merge aprendendo
