@@ -41,18 +41,18 @@ Congurar sincronização com o repositório local
 
 ```bash
 git remote add origin https://github.com/[nome]/aprendendo-git.git
-```
+
 
 git remote -v 
 
-```bash
+
 origin https://github.com/[seu_usuario_no_github]/curso-git.git (fetch)
 origin https://github.com/[seu_usuario_no_github]/curso-git.git (push)
-```
+
 
 Fazendo o primeiro push
 
-```bash
+
 git push origin master
 ```
 
@@ -93,8 +93,7 @@ Author: [nome] <[email]>
 Date:   Thu Sep 21 11:22:02 2017 -0300
 
     aprendendo-git
-```
-```bash
+
 git add README.md
 git commit -m "adicionado uma branch"
 git push -u origin aprendendo
