@@ -109,6 +109,7 @@ git pull
 # criando branch local outro usuario e dizendo a branch remota correspondente
 git branch -t aprendendo origin/aprendendo
 
+# atualizando branch master com branch aprendendo
 git merge aprendendo
 
 # atualizando repositorio remoto
@@ -118,3 +119,14 @@ git push origin master
 git rebase master aprendendo
 ```
 
+Problemas
+=========
+
+Git refusing to merge unrelated histories
+-----------------------------------------
+```bash
+git pull origin master --allow-unrelated-histories
+git merge origin origin/master
+... add and commit here...
+git push origin master
+```
