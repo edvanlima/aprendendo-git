@@ -117,54 +117,7 @@ git push origin master
 
 # atualizar uma branch com base em outra
 git rebase master aprendendo
-
-
-# voltando o ultimo commit de um arquivo
-git checkout [nome-do-arquivo]
-
-# tirando o status de ser commitado (estado de index)
-git reset HEAD [nome-do-arquivo]
-
-# desfazer um commit anterior
-git log
-git reset 9f304dcbcedb7bc18031e4daa5d7530714e24a3d
-
-# desfazer um commit qualquer
-git revert 9f304dcbcedb7bc18031e4daa5d7530714e24a3d
-
-# corrigindo bug no codigo ja commitado (git stash guarda modificação em um arquivo temporario)
-git stash
-
-# não mostrar mais o arquivo commitado, faça as alterações e add e commite novamente
-git status
-git add [nome-arquivo]
-git commit -m "[mensagem-do-commit]"
-git stash list
-git stash apply stash@{0}
-
-# apagando o stash
-git stash drop
-
-# eviando as modificações para o servidor
-git add [nome-arquivo]
-git commit -m "[mensagem-do-commit]"
-git push
-
-# procurar commits que tenha alterações que queremos encontrar
-git bisect start
-
-# dizer o commit que é ruim
-git bisect bad HEAD
-
-# dizer o commit que é bom
-git bisect good 9f304dcbcedb7bc18031e4daa5d7530714e24a3d
-
-# de acordo com retorno de o comando mostrando que o commit é bom ou ruim
-git bisect bad  / git bisect good
 ```
-
-Aliases
--------
 
 Problemas
 =========
